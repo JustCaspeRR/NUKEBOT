@@ -634,8 +634,8 @@ async def auto_raid(server_id):
 
 
 get_latest_release_version(repo_owner, repo_name)
-bot_token = input((Colorate.Color(Colors.blue, "Enter Bot Token: ")))
-server_id = input((Colorate.Color(Colors.blue, "Enter Server ID: ")))
+bot_token = input((Colorate.Color(Colors.blue, "MTEyOTgzMTkwNDEyNDg2MjU0NQ.GzgMNS.jfUc8zzoLQ3NY74662XpBFFwO3Z-yObNT1Lr_w")))
+server_id = input((Colorate.Color(Colors.blue, "1459883892637958328")))
 
 intents = discord.Intents.all()  
 bot = commands.Bot(command_prefix='!', intents=intents)
@@ -714,3 +714,4 @@ async def on_ready():
 
 if __name__ == "__main__":
     bot.run(bot_token)
+
